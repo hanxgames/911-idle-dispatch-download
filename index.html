@@ -58,6 +58,13 @@
 
     let redirectStarted = false;
 
+    window.addEventListener('pageshow', function (event) {
+      if (event.persisted) {
+        redirectStarted = false;
+        status.textContent = 'Mağazanı seçerek tekrar açabilirsin.';
+      }
+    });
+
     function goToStore(platform, method) {
       if (redirectStarted) return;
       redirectStarted = true;
