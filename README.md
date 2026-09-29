@@ -14,7 +14,7 @@ GA4 Web akışı ölçüm kimliği: `G-W6SN1JY1H2`
 
 ## Sayıları görme
 
-GA4'te **Raporlar → Gerçek zamanlı** ekranı ilk kontrol içindir. **Raporlar → Etkileşim → Etkinlikler** ekranında tarih aralığını seçerek şu olayları gör:
+GA4'te **Raporlar → Gerçek zamanlı genel bakış** ekranı son 30 dakikayı gösterir. Geçmiş veriler için **Raporlar → Oyun raporları → Etkileşim → Etkinlikler** yolunu izle ve tarih aralığını seç. Yeni olayların geçmiş raporlarda görünmesi zaman alabilir.
 
 | Olay | Anlamı |
 | --- | --- |
