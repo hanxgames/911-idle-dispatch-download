@@ -15,6 +15,8 @@
     h1 { margin: 0; font-size: clamp(26px, 7vw, 36px); line-height: 1.1; }
     .subtitle { margin: 12px 0 28px; color: #c1cede; line-height: 1.5; }
     .store { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-top: 12px; padding: 17px 20px; border: 1px solid #5a7595; border-radius: 14px; color: #fff; background: #203653; text-decoration: none; font-size: 17px; font-weight: 700; transition: background .2s, transform .2s; }
+    .store-label { display: flex; align-items: center; gap: 14px; text-align: left; }
+    .store-logo { display: block; flex: none; width: 32px; height: 32px; object-fit: contain; border-radius: 7px; }
     .store:hover, .store:focus-visible { background: #2b486d; transform: translateY(-2px); }
     .store:focus-visible { outline: 3px solid #80c9ff; outline-offset: 3px; }
     .arrow { font-size: 21px; line-height: 1; }
@@ -28,10 +30,18 @@
     <p class="subtitle">Acil çağrıları yönet. Ekibini doğru yere, doğru zamanda gönder.</p>
 
     <a id="ios-link" class="store" href="https://apps.apple.com/tr/app/911-idle-dispatch/id6813881867?l=tr">
-      <span>App Store'dan indir</span><span class="arrow" aria-hidden="true">↗</span>
+      <span class="store-label">
+        <img class="store-logo" src="./app-store.png" width="32" height="32" alt="">
+        <span>App Store'dan indir</span>
+      </span>
+      <span class="arrow" aria-hidden="true">↗</span>
     </a>
     <a id="android-link" class="store" href="https://play.google.com/store/apps/details?id=com.hantro.wwiii&amp;hl=tr">
-      <span>Google Play'den indir</span><span class="arrow" aria-hidden="true">↗</span>
+      <span class="store-label">
+        <img class="store-logo" src="./google-play.png" width="32" height="32" alt="">
+        <span>Google Play'den indir</span>
+      </span>
+      <span class="arrow" aria-hidden="true">↗</span>
     </a>
 
     <p id="status" role="status" aria-live="polite">Cihazın algılanıyor…</p>
